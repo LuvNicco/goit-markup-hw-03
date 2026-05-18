@@ -4,21 +4,17 @@
 
 .features .list {
     display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: row;
         gap: 24px;
 }
 
-.features .list-item {
+.features-list-item {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
         flex-direction: column;
         gap: 8px;
+        flex-basis: calc((100% - 72px) / 4);
 }
 
-.features .list .text {
+.features-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
