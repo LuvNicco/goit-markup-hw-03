@@ -2,7 +2,7 @@
     padding: 120px 0;
 }
 
-.features .list {
+.features-list {
     display: flex;
         gap: 24px;
 }

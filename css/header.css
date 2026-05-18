@@ -27,11 +27,11 @@
 .nav {
     display: flex;
     align-items: center;
-    gap: 76px;
 }
 
 .link-logo {
     padding: 24px 0;
+    margin-right: 76px;
 }
 
 .nav-link {
@@ -46,6 +46,11 @@
 
 .address {
     margin-left: auto;
+}
+
+.address .list {
+    display: flex;
+    gap: 40px;
 }
 
 .address .link-mailto,
