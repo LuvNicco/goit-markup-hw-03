@@ -1,3 +1,23 @@
+.features {
+    padding: 120px 0;
+}
+
+.features .list {
+    display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        gap: 24px;
+}
+
+.features .list-item {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+}
+
 .features .list .text {
     font-weight: 400;
     font-size: 16px;
@@ -6,7 +26,7 @@
     color: #434455;
 }
 
-.features .subtitle {
+.features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
